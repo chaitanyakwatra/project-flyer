@@ -217,6 +217,7 @@ width: 310px;
 .bottom{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 0%;
 }
 .buy{
   color: orangered;
@@ -244,4 +245,11 @@ text-align: center;
   color: orangered;
   border: none;
   background-color: #111111;
+}
+footer p{
+  text-align: center;
+  color: gray;
+}
+footer{
+  margin-bottom: 0;
 }
