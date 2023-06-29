@@ -10,313 +10,290 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <header class="header"> <!--start of header class -->
-        <div class="nav--class"><!--navigation class block-->
-         <nav class="nav__bar"><!--navigation bar modifier-->
-           <ul>
-                <li><a href="#home">Best Sellers</a></li>
-                <li><a href="#news">gift ideas</a></li>
-                <li><a href="#contact">New Releases</a></li>
-                <li><a href="#about">Todays deal</a></li>
-                <li><a href="#t">Costumer Service</a></li>
+    <header class="header">
+        <div class="header__nav">
+          <nav class="nav__bar">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#home">Best Sellers</a></li>
+              <li class="nav__item"><a href="#news">Gift Ideas</a></li>
+              <li class="nav__item"><a href="#contact">New Releases</a></li>
+              <li class="nav__item"><a href="#about">Today's Deal</a></li>
+              <li class="nav__item"><a href="#t">Customer Service</a></li>
             </ul>
-         </nav><!--navigation bar modifier closed-->
-
-          <div class="logo"><!--Eflyer logo -->
+          </nav>
+          <div class="header__logo">
             <img src="./images/logo.png" alt="logo">
           </div>
-        </div><!--navigation class block closed-->
-
-     <div class="iconclass"><!--section for icons starts here-->
-         <div class="icon--allcategory"><!--category modifier-->
+        </div>
+        <div class="header__icons">
+          <div class="header__icon header__icon--all-category">
             <form>
-                 <label for="categories"></label>
-                  <select name="categories" id="categories">
-                    <option value="all categories">all categories</option>
-                    <option value="action">action</option>
-                     <option value="another action">another action</option>
-                     <option value="some more action">some more action</option>
-                  </select>
+              <label for="categories"></label>
+              <select name="categories" id="categories">
+                <option value="all categories">All Categories</option>
+                <option value="action">Action</option>
+                <option value="another action">Another Action</option>
+                <option value="some more action">Some More Action</option>
+              </select>
             </form>
-         </div><!--close of category modifier-->
-         <div class="icon--search"><!--search modifier-->
-             <form action="#">
-                  <input type="text"
-                   placeholder=" Search this Blog"
-                    name="search">
-             </form>
-         </div><!--close of search modifier-->
-         <div class="icon--language"><!--language modifier-->
-             <form>
-                <label for="language"></label>
-                <select name="language" id="language">
-                    <option value="language">english</option>
-                    <option value="language2">french</option>
-                </select>
-             </form>
-         </div><!--close of language modifier-->
-          <div class="icon--cart"><!--cart modifier-->
-             <i class="icon__fa fa-shopping-cart"></i>
-              <h4>Cart</h4>
-          </div><!--cart modifier closed-->
-          <div class="icon--user">
-
           </div>
-     </div>
-     <div class="middle">
-        <h1>GET STARTED</h1>
-        <h1>YOUR FAVOURITE SHOPPING</h1>
-     </div>
-     <div id="button">
-        <button type="button">BUY NOW</button>
-     </div>
-    </header>
-
-
-
-<article>
-<div id="clothing">
-    <div class="heading1">
-        <h1>Man & Women Fashion</h1>
-    </div>
-    <div id="cloths">
-    <div class="T-shirt">
-        <button>
-            <div class="name">
-            <h3>Man T-shirt</h3>
+          <div class="header__icon header__icon--search">
+            <form action="#">
+              <input type="text" placeholder="Search this Blog" name="search">
+            </form>
+          </div>
+          <div class="header__icon header__icon--language">
+            <form>
+              <label for="language"></label>
+              <select name="language" id="language">
+                <option value="language">English</option>
+                <option value="language2">French</option>
+              </select>
+            </form>
+          </div>
+          <div class="header__icon header__icon--cart">
+            <i class="icon__fa fa-shopping-cart"></i>
+            <h4>Cart</h4>
+          </div>
+          <div class="header__icon header__icon--user"></div>
         </div>
-            <div class="price">
-            <p class="value">price </p>
-            <p> $ 30</p>
+        <div class="header__middle">
+          <h1>GET STARTED</h1>
+          <h1>YOUR FAVORITE SHOPPING</h1>
         </div>
-        <div class="image">
-            <img src="./images/tshirt-img.png" alt="tshirt">
+        <div id="button">
+          <button type="button">BUY NOW</button>
         </div>
-        <div class="bottom">
-            <p class="buy">buy now</p>
-            <p >see more</p>
+      </header>
+    
+    <article>
+        <div id="clothing">
+            <div class="heading1">
+                <h1>Man & Women Fashion</h1>
+            </div>
+            <div id="cloths">
+                <div class="T-shirt">
+                    <button>
+                         <div class="name">
+                            <h3>Man T-shirt</h3>
+                        </div>
+                        <div class="price">
+                             <p class="value">price </p>
+                              <p> $ 30</p>
+                        </div>
+                        <div class="image">
+                             <img src="./images/tshirt-img.png" alt="tshirt">
+                        </div>
+                        <div class="bottom">
+                            <p class="buy">buy now</p>
+                            <p >see more</p>
+                        </div>
+                     </button>
+                </div>
+                <div class="shirt">
+                    <button type="button">
+                        <div class="name">
+                             <h3>Man Shirt</h3>
+                        </div>
+                        <div class="price">
+                            <p class="value">price</p>
+                             <p> $ 30</p>
+                         </div>
+                         <div class="image">
+                             <img src="./images/dress-shirt-img.png" alt="shirt">
+                         </div>
+                         <div class="bottom">
+                            <p class="buy">buy now</p>
+                             <p>see more</p>
+                         </div>
+                     </button>
+                 </div>
+                  <div class="skart">
+                    <button>
+                        <div class="name">
+                             <h3>Women Skart</h3>
+                        </div>
+                        <div class="price">
+                             <p class="value">price</p>
+                             <p> $ 30</p>
+                        </div>
+                        <div class="image">
+                            <img src="./images/women-clothes-img.png" alt="women cloths">
+                        </div>
+                         <div class="bottom">
+                            <p class="buy">buy now</p>
+                            <p>see more</p>
+                        </div>
+                     </button>
+                  </div>
+            </div>
+            <div id="arrow">
+                <button type="button"><h3> < </h3>  </button>
+                <button type="button"><h3> > </h3>  </button>
+            </div>
         </div>
-        </button>
-    </div>
-    <div class="shirt">
-        <button type="button">
-        <div class="name">
-            <h3>Man Shirt</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">price</p>
-        <p> $ 30</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/dress-shirt-img.png" alt="shirt">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-    <div class="skart">
-        <button>
-        <div class="name">
-            <h3>Women Skart</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">price</p>
-        <p> $ 30</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/women-clothes-img.png" alt="women cloths">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-</div>
-<div id="arrow">
-    <button type="button"><h3> < </h3>  </button>
-    <button type="button"><h3> > </h3>  </button>
-</div>
-</div>
-</article>
-<article>
-<div id="electric">
-    <div class="heading1">
-        <h1>Electronics</h1>
-    </div>
-    <div id="Electronics">
-    <div class="Laptop">
-        <button>
-            <div class="name">
-            <h3>Laptop</h3>
-        </div>
-            <div class="price">
-            <p class="value">Start price </p>
-            <p> $ 100</p>
-        </div>
-        <div class="image">
-            <img src="./images/laptop-img.png" alt="Laptop" width="300px" height="300px">
-        </div>
-        <div class="bottom">
-            <p class="buy">buy now</p>
-            <p >see more</p>
-        </div>
-        </button>
-    </div>
-    <div class="mobiles">
-        <button type="button">
-        <div class="name">
-            <h3>Mobiles</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">Start price</p>
-        <p> $ 100</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/mobile-img.png" alt="Mobiles" width="300px" height="300px">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-    <div class="computer">
-        <button>
-        <div class="name">
-            <h3>computer</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">Start price</p>
-        <p> $ 100</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/computer-img.png" alt="computer" width="300px" height="300px">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-</div>
-<div id="arrow">
-    <button type="button"><h3> < </h3>  </button>
-    <button type="button"><h3> > </h3>  </button>
-</div>
-</div>
-</article>
-<article>
-<div id="accessories">
-    <div class="heading1">
-        <h1>Jewellery accessories</h1>
-    </div>
-    <div id="Jewellery">
-    <div class="jumkas">
-        <button>
-            <div class="name">
-            <h3>jumkas</h3>
-        </div>
-            <div class="price">
-            <p class="value">Start price </p>
-            <p> $ 100</p>
-        </div>
-        <div class="image">
-            <img src="./images/jhumka-img.png" alt="jhumka" width="300px">
-        </div>
-        <div class="bottom">
-            <p class="buy">buy now</p>
-            <p >see more</p>
-        </div>
-        </button>
-    </div>
-    <div class="necklaces">
-        <button type="button">
-        <div class="name">
-            <h3>necklaces</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">Start price</p>
-        <p> $ 100</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/neklesh-img.png" alt="necklaces" width="300px">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-    <div class="kangan">
-        <button>
-        <div class="name">
-            <h3>kangans</h3>
-
-        </div>
-       <div class="price">
-        <p class="value">Start price</p>
-        <p> $ 100</p>
-
-       </div>
-       <div class="image">
-        <img src="./images/kangan-img.png" alt="kangan" width="300px">
-       </div>
-       <div class="bottom">
-        <p class="buy">buy now</p>
-        <p>see more</p>
-       </div>
-        </button>
-    </div>
-</div>
-<div id="arrow">
-    <button type="button"><h3> < </h3>  </button>
-    <button type="button"><h3> > </h3>  </button>
-</div>
-</div>
-</article>
-<footer>
-<div id="bottom-section">
-    <div id="logo">
-    <img src="./images/logo.png" alt="logo">
-</div>
-<div id="email-id">
-<div id="email">
-    <label for="email">Your email:</label>
-  <input type="email" id="email" name="email">
-  
-  <button type="submit">subscribe</button>
- </div>
-</div>
-</form>
-<div class="nav-class">
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Best Sellers</a></li>
-            <li><a href="#news">gift ideas</a></li>
-            <li><a href="#contact">New Releases</a></li>
-            <li><a href="#about">Todays deal</a></li>
-            <li><a href="#t">Costumer Service</a></li>
-          </ul>
-    </nav>
-    <div id="helpline">
-        <p class="helpline1">helpline number: +1 1800 1200 1200 </p>
-    </div>
-</div>
-
-    <p>2020 all right reserved. Design by free html templates</p>
-</footer>
-</body>
-</html>
+    </article>
+    <article>
+        <div id="electric">
+            <div class="heading1">
+                <h1>Electronics</h1>
+            </div>
+             <div id="Electronics">
+                <div class="Laptop">
+                    <button>
+                        <div class="name">
+                            <h3>Laptop</h3>
+                        </div>
+                        <div class="price">
+                            <p class="value">Start price </p>
+                            <p> $ 100</p>
+                        </div>
+                        <div class="image">
+                            <img src="./images/laptop-img.png" alt="Laptop" width="300px" height="300px">
+                        </div>
+                         <div class="bottom">
+                            <p class="buy">buy now</p>
+                            <p >see more</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="mobiles">
+                    <button type="button">
+                        <div class="name">
+                            <h3>Mobiles</h3>
+                        </div>
+                        <div class="price">
+                            <p class="value">Start price</p>
+                            <p> $ 100</p>
+                        </div>
+                        <div class="image">
+                            <img src="./images/mobile-img.png" alt="Mobiles" width="300px" height="300px">
+                         </div>
+                         <div class="bottom">
+                            <p class="buy">buy now</p>
+                            <p>see more</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="computer">
+                    <button>
+                        <div class="name">
+                             <h3>computer</h3>
+                            </div>
+                            <div class="price">
+                                <p class="value">Start price</p>
+                                <p> $ 100</p>
+                            </div>
+                            <div class="image">
+                                <img src="./images/computer-img.png" alt="computer" width="300px" height="300px">
+                             </div>
+                             <div class="bottom">
+                                 <p class="buy">buy now</p>
+                                 <p>see more</p>
+                                </div>
+                             </button>
+                         </div>
+                        </div>
+                        <div id="arrow">
+                            <button type="button"><h3> < </h3>  </button>
+                            <button type="button"><h3> > </h3>  </button>
+                        </div>
+                 </div>
+                </article>
+                <article>
+                    <div id="accessories">
+                         <div class="heading1">
+                            <h1>Jewellery accessories</h1>
+                        </div>
+                        <div id="Jewellery">
+                          <div class="jumkas">
+                             <button>
+                                <div class="name">
+                                    <h3>jumkas</h3>
+                                 </div>
+                                  <div class="price">
+                                    <p class="value">Start price </p>
+                                    <p> $ 100</p>
+                                </div>
+                                <div class="image">
+                                     <img src="./images/jhumka-img.png" alt="jhumka" width="300px">
+                                    </div>
+                                     <div class="bottom">
+                                        <p class="buy">buy now</p>
+                                         <p >see more</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="necklaces">
+                                    <button type="button">
+                                        <div class="name">
+                                            <h3>necklaces</h3>
+                                        </div>
+                                        <div class="price">
+                                             <p class="value">Start price</p>
+                                             <p> $ 100</p>
+                                            </div>
+                                            <div class="image">
+                                                <img src="./images/neklesh-img.png" alt="necklaces" width="300px">
+                                            </div>
+                                            <div class="bottom">
+                                                 <p class="buy">buy now</p>
+                                                 <p>see more</p>
+                                                </div>
+                                            </button>
+                                        </div>
+                                         <div class="kangan">
+                                            <button>
+                                                <div class="name">
+                                                    <h3>kangans</h3>
+                                                </div>
+                                                 <div class="price">
+                                                     <p class="value">Start price</p>
+                                                      <p> $ 100</p>
+                                                     </div>
+                                                      <div class="image">
+                                                        <img src="./images/kangan-img.png" alt="kangan" width="300px">
+                                                    </div>
+                                                    <div class="bottom">
+                                                        <p class="buy">buy now</p>
+                                                        <p>see more</p>
+                                                     </div>
+                                                    </button>
+                                                </div>
+                                         </div>
+                                         <div id="arrow">
+                                            <button type="button"><h3> < </h3>  </button>
+                                            <button type="button"><h3> > </h3>  </button>
+                                        </div>
+                                    </div>
+                                </article>
+                                <footer>
+                                    <div id="bottom-section">
+                                        <div id="logo">
+                                            <img src="./images/logo.png" alt="logo">
+                                        </div>
+                                        <div id="email-id">
+                                            <div id="email">
+                                                <label for="email">Your email:</label>
+                                                <input type="email" id="email" name="email">
+                                                 <button type="submit">subscribe</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="nav-class">
+                                            <nav class="navbar">
+                                                 <ul>
+                                                    <li><a href="#home">Best Sellers</a></li>
+                                                    <li><a href="#news">gift ideas</a></li>
+                                                    <li><a href="#contact">New Releases</a></li>
+                                                    <li><a href="#about">Todays deal</a></li>
+                                                    <li><a href="#t">Costumer Service</a></li>
+                                                </ul>
+                                            </nav>
+                                            <div id="helpline">
+                                                <p class="helpline1">helpline number: +1 1800 1200 1200 </p>
+                                            </div>
+                                        </div>
+                                        <p>2020 all right reserved. Design by free html templates</p>
+                                 </footer>
+</body> </html>

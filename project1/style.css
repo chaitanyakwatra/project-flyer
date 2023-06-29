@@ -1,4 +1,4 @@
-.nav--class ul {
+.header__nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,15 +6,19 @@
     background-color: black;
     text-align: center;
   }
-  .nav--class{
+  .header__nav{
     clip-path: path(100% 0, 95% 50%, 50% 100%, 5% 50%,0 0);
     align-items: center;
   }
-  li {
-    float: left;
-  }
   
- .nav--class li a {
+  .nav__list{
+    
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+ .header__nav li a {
     display: flex;
     color: white;
     text-align: center;
@@ -29,7 +33,7 @@
     color: orangered;
   }
   
-  .logo{
+  .header__logo{
     margin: 20px;
     text-align: center;
   }
@@ -38,7 +42,7 @@
   }
   
   
-  .iconclass{
+  .header__icons{
     display: flex;
     justify-content: space-between;
     
@@ -51,10 +55,10 @@
   background-size: cover; 
   
 }
-.nav--class h1{
+.header__nav h1{
   color: white;
 }
-.middle h1{
+.header__middle h1{
  color: white;
  text-align: center;}
 #button{
