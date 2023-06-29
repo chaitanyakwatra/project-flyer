@@ -1,4 +1,4 @@
-.nav-class ul {
+.nav--class ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,42 +6,39 @@
     background-color: black;
     text-align: center;
   }
-  
+  .nav--class{
+    clip-path: path(100% 0, 95% 50%, 50% 100%, 5% 50%,0 0);
+    align-items: center;
+  }
   li {
     float: left;
   }
   
- .nav-class li a {
-    display: block;
+ .nav--class li a {
+    display: flex;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
   }
   
-  .allcategory form{
-    
-    background-color: #111111;
-  }
+  
+  
   li a:hover {
    
     color: orangered;
   }
-  .navbar{
-    clip-path: path(100% 0, 95% 50%, 50% 100%, 5% 50%,0 0);
-    align-items: center;
-  }
-  #logo{
+  
+  .logo{
     margin: 20px;
     text-align: center;
   }
   body{
     margin: 0%;
   }
-  .nav-class h1{
-    text-align: center;
-  }
-  #icon-id{
+  
+  
+  .iconclass{
     display: flex;
     justify-content: space-between;
     
@@ -54,7 +51,7 @@
   background-size: cover; 
   
 }
-.nav-class h1{
+.nav--class h1{
   color: white;
 }
 .middle h1{
