@@ -158,6 +158,58 @@ li a:hover {
     color: gray;
   }
 
+@media (max-width:570px){
+  #categories {
+    width: 150px;
+    height: 35px;
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+  }
+  #search{
+    width: 500px;
+    height: 28px;
+  
+  }
+  #language{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+  }
+  .header__icon--cart {
+    
+    color: white;
+    margin-top: 10px;
+  }
+  .header__nav li a {
+    padding: 5px;
+    
+  }
+  .header__logo{
+    margin: 5px;
+    
+    
+  }
+  .header__nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+  }
+  .header__middle h1{
+   font-size: medium;
+   margin-top: 20px;
+  }
+}
 
   /*components*/
   #button{
@@ -273,13 +325,22 @@ li a:hover {
           border: none;
           background-color: #111111;
         }
+        @media (max-width:570px){
+          #button button {
+    
+            padding: 5px 10px;
+            
+            font-size: 15px;
+            margin: 2px 1px;
+            
+          }
+        }
 
 /*layout*/
 
   .container {
     width: 80%;
-    margin: 0 auto; /* Center the container horizontally */
-}
+    margin: 0 auto; }
 
 body{
   margin: 0%;
@@ -414,19 +475,11 @@ footer{
 @media (max-width:570px){
   .header{
    background-position: center center;
-   height: 400px;
+   height: 600px;
     
     
   }
-  .header__nav li a {
-    padding: 5px;
-    
-  }
-  .header__logo{
-    margin: 5px;
-    
-    
-  }
+  
   .nav__list{
     display: flex;
     flex-direction: column;
@@ -434,29 +487,8 @@ footer{
     
   
   }
-  .header__nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    
-  }
-  .header__middle h1{
-   font-size: medium;
-   margin-top: 20px;
-  }
-  #button button {
-    
-    padding: 5px 10px;
-    
-    font-size: 15px;
-    margin: 2px 1px;
-    
-  }
+
+  
 .fashion__cloths{
   
   flex-direction: column;
@@ -476,5 +508,14 @@ footer{
   align-items: center;
   
 }
+
+
+.header__icons{
+  
+  flex-direction: column;
+  
+  align-items: center;
+margin-top: 25px;
+  }
 
 }
