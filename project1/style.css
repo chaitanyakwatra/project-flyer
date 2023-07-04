@@ -359,3 +359,61 @@ body{
 footer{
   margin-bottom: 0;
 }
+@media (max-width:570px){
+  .header{
+    background-image: url(./images/banner-bg.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    height: 300px;
+    width: auto;
+    background-size: cover; 
+  }
+  .header__nav li a {
+    padding: 5px;
+    
+  }
+  .header__logo{
+    margin: 5px;
+    text-align: center;
+    
+  }
+  .header__middle h1{
+    color: white;
+    text-align: center;
+   font-size: medium;
+   margin-top: 20px;
+  }
+  #button button {
+    border: 1px solid black;
+    background-color: #111111;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    cursor: pointer;
+    align-items: center;
+  }
+.fashion__cloths{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Electronics__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.accessories__Jewellery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+}
