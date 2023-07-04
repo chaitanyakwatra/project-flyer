@@ -10,7 +10,9 @@
     <script src="script.js"></script>
 </head>
 <body>
+   
     <header class="header">
+        
         <div class="header__nav">
           <nav class="nav__bar">
             <ul class="nav__list">
@@ -25,7 +27,12 @@
             <img src="./images/logo.png" alt="logo">
           </div>
         </div>
+        <div class="container">
         <div class="header__icons">
+            
+            <div class="header__icon header__icon--hamburgericon">
+                <img src="./images/toggle-icon.png" alt="hamburger menu">
+            </div>
           <div class="header__icon header__icon--all-category">
             <form>
               <label for="categories"></label>
@@ -39,7 +46,8 @@
           </div>
           <div class="header__icon header__icon--search">
             <form action="#">
-              <input type="text" placeholder="Search this Blog" name="search">
+              <input type="text" placeholder="Search this Blog" name="search" id="search">
+              <!--<img src="./images/search-icon.png" alt="search icon">-->
             </form>
           </div>
           <div class="header__icon header__icon--language">
@@ -52,20 +60,25 @@
             </form>
           </div>
           <div class="header__icon header__icon--cart">
-           <b>cart</b> 
+            
+           <b> CART </b> 
             
           </div>
           <div class="header__icon header__icon--user"></div>
         </div>
+        </div>
         <div class="header__middle">
-          <h1>GET STARTED</h1>
+          <h1 class="header__middle__top">GET STARTED</h1>
           <h1>YOUR FAVORITE SHOPPING</h1>
         </div>
         <div id="button">
           <button type="button">BUY NOW</button>
         </div>
+   
       </header>
+      <div class="container">
       <article class="fashion">
+       
             <div class="fashion__heading">
                 <h1>Man & Women Fashion</h1>
             </div>
@@ -129,7 +142,7 @@
                 <button type="button"><h3> < </h3>  </button>
                 <button type="button"><h3> > </h3>  </button>
             </div>
-        </div>
+       
     </article>
     <article>
         <div id="Electronics">
@@ -264,7 +277,9 @@
                                             <button type="button"><h3> > </h3>  </button>
                                         </div>
                                     </div>
+                                </div>
                                 </article>
+                            
                                 <footer>
                                     <div id="bottom-section">
                                         <div class="header__logo">
@@ -273,7 +288,7 @@
                                         <div id="email-id">
                                             <div id="email">
                                                 <label for="email">Your email:_____________</label>
-                                                
+                                                <input type="email" id="emailid" name="emailid">
                                                  <button type="submit">subscribe</button>
                                                 </div>
                                             </div>
@@ -294,4 +309,5 @@
                                         </div>
                                         <p>2020 all right reserved. Design by free html templates</p>
                                  </footer>
+                               
 </body> </html>
