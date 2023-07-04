@@ -1,3 +1,257 @@
+
+/*base*/
+.header__nav li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+   
+  color: orangered;
+}
+.header__nav h1{
+  color: white;
+}
+.header__middle h1{
+  color: white;
+  text-align: center;
+}
+  .header__logo{
+    margin: 20px;
+    text-align: center;
+  }
+  .tshirt__value{
+    color: orangered;
+  }
+  .tshirt__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .shirt__value{
+    color: orangered;
+  }
+  .shirt__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .skart__value{
+    color: orangered;
+  }
+  .skart__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .fashion__heading{
+    text-align: center;
+  }
+  .cloths__arrow{
+    text-align: center;
+  }
+  .laptop__value{
+    color: orangered;
+  }
+  .laptop__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .mobile__value{
+    color: orangered;
+  }
+  .mobile__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .computer__value{
+    color: orangered;
+  }
+  .computer__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .electronic__heading{
+    text-align: center;
+  }
+  .electronic__arrow{
+    text-align: center;
+  }
+  .jhumka__value{
+    color: orangered;
+  }
+  .jhumka__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .necklace__value{
+    color: orangered;
+  }
+  .necklace__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .kangan__value{
+    color: orangered;
+  }
+  .kangan__buy{
+    color: orangered;
+    text-align: left;
+  }
+  .accessories__heading{
+    text-align: center;
+  }
+  .jewellery__arrow{
+    text-align: center;
+  }
+  #bottom-section .nav-class .navbar{
+    text-align: center;
+    }
+  #helpline p{
+    text-align: center;
+  }
+  #email{
+    text-align: center;
+    text-decoration: underline white 2px;
+  }
+  footer p{
+    text-align: center;
+    color: gray;
+  }
+
+
+  /*components*/
+  #button{
+    text-align: center;
+  }
+   #button button {
+    border: 1px solid black;
+    background-color: #111111;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .cloths__T-shirt button{
+    border: white;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 520px;
+    width: 310px;
+    }
+    .cloths__shirt button{
+      border: white;
+      background-color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      height: 520px;
+      width: 310px;
+    }
+    .cloths__skart button{
+      border: white;
+      background-color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      height: 520px;
+      width: 310px;
+    }
+    .cloths__arrow button{
+      background-color: #111111;
+      color: white;
+      height: 50px;
+      width: 50px;
+      margin: 1%;
+      align-items: center;
+    }
+
+    .item__Laptop button{
+      border: white;
+      background-color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      height: 520px;
+      width: 310px;
+      }
+      .item__mobiles button{
+        border: white;
+        background-color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        height: 520px;
+        width: 310px;
+        
+      }
+      .item__computer button{
+        border: white;
+        background-color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        height: 520px;
+        width: 310px;
+      }
+      .electronic__arrow button{
+        background-color: #111111;
+        color: white;
+        height: 50px;
+        width: 50px;
+        margin: 1%;
+        align-items: center;
+      }
+      .jewellery__jumkas button{
+        border: white;
+        background-color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        height: 520px;
+        width: 310px;
+        }
+        .jewellery__necklaces button{
+          border: white;
+          background-color: white;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          height: 520px;
+          width: 310px;
+          
+        }
+        .jewellery__kangan button{
+          border: white;
+          background-color: white;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+          height: 520px;
+          width: 310px;
+        }
+        .jewellery__arrow button{
+          background-color: #111111;
+          color: white;
+          height: 50px;
+          width: 50px;
+          margin: 1%;
+          align-items: center;
+        }
+        #email button{
+          color: orangered;
+          border: none;
+          background-color: #111111;
+        }
+
+/*layout*/
+body{
+  margin: 0%;
+}
+.header{
+  background-image: url(./images/banner-bg.png);
+  width:auto ;
+  background-repeat:no-repeat;
+  height: 600px;
+  background-size: cover; 
+}
+.header__nav{
+  clip-path: path(100% 0, 95% 50%, 50% 100%, 5% 50%,0 0);
+  align-items: center;
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+}
 .header__nav ul {
     list-style-type: none;
     margin: 0;
@@ -6,365 +260,101 @@
     background-color: black;
     text-align: center;
   }
-  .header__nav{
-    clip-path: path(100% 0, 95% 50%, 50% 100%, 5% 50%,0 0);
-    align-items: center;
-  }
-  
-  .nav__list{
-    
+   .header__icons{
     display: flex;
     justify-content: space-between;
-  }
-
-  
- .header__nav li a {
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  
-  
-  li a:hover {
-   
-    color: orangered;
-  }
-  
-  .header__logo{
-    margin: 20px;
-    text-align: center;
-  }
-  body{
-    margin: 0%;
-  }
-  
-  
-  .header__icons{
-    display: flex;
-    justify-content: space-between;
-    
-  }
-.header{
-  background-image: url(./images/banner-bg.png);
-  width:auto ;
-  background-repeat:no-repeat;
-  height: 600px;
-  background-size: cover; 
-  
-}
-.header__nav h1{
-  color: white;
-}
-.header__middle h1{
- color: white;
- text-align: center;}
-#button{
-  text-align: center;
-}
- #button button {
-  border: 1px solid black;
-  background-color: #111111;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  align-items: center;
-}
+    }
 .fashion__cloths{
   display: flex;
   justify-content: space-between;
 }
-.cloths__T-shirt button{
-border: white;
-background-color: white;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-height: 520px;
-width: 310px;
-}
-.cloths__shirt button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-}
-.cloths__skart button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-}
 .tshirt__price{
   display: flex;
   justify-content: center;
-  
-}
-.tshirt__value{
-  color: orangered;
 }
 .tshirt__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.tshirt__buy{
-  color: orangered;
-  text-align: left;
-}
 .shirt__price{
   display: flex;
   justify-content: center;
-  
-}
-.shirt__value{
-  color: orangered;
-}
+  }
 .shirt__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.shirt__buy{
-  color: orangered;
-  text-align: left;
-}
 .skart__price{
   display: flex;
   justify-content: center;
-  
-}
-.skart__value{
-  color: orangered;
-}
+  }
 .skart__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.skart__buy{
-  color: orangered;
-  text-align: left;
-}
-.fashion__heading{
-  text-align: center;
-}
-.cloths__arrow{
-  text-align: center;
-}
-.cloths__arrow button{
-  background-color: #111111;
-  color: white;
-  height: 50px;
-  width: 50px;
-  margin: 1%;
-  align-items: center;
-}
-
-
 .Electronics__item{
   display: flex;
   justify-content: space-between;
 }
-.item__Laptop button{
-border: white;
-background-color: white;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-height: 520px;
-width: 310px;
-}
-.item__mobiles button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-  
-}
-.item__computer button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-}
 .laptop__price{
   display: flex;
   justify-content: center;
-  
-}
-.laptop__value{
-  color: orangered;
-}
+  }
 .laptop__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.laptop__buy{
-  color: orangered;
-  text-align: left;
-}
 .mobile__price{
   display: flex;
   justify-content: center;
-  
-}
-.mobile__value{
-  color: orangered;
-}
+  }
 .mobile__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.mobile__buy{
-  color: orangered;
-  text-align: left;
-}
 .computer__price{
   display: flex;
   justify-content: center;
-  
-}
-.computer__value{
-  color: orangered;
-}
+  }
 .computer__buy_or_see{
   display: flex;
   justify-content: space-around;
 }
-.computer__buy{
-  color: orangered;
-  text-align: left;
-}
-.electronic__heading{
-  text-align: center;
-}
-.electronic__arrow button{
-  background-color: #111111;
-  color: white;
-  height: 50px;
-  width: 50px;
-  margin: 1%;
-  align-items: center;
-}
-
- 
-
 .accessories__Jewellery{
   display: flex;
   justify-content: space-between;
 }
-.jewellery__jumkas button{
-border: white;
-background-color: white;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-height: 520px;
-width: 310px;
-}
-.jewellery__necklaces button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-  
-}
-.jewellery__kangan button{
-  border: white;
-  background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 520px;
-  width: 310px;
-}
 .jhumka__price{
   display: flex;
   justify-content: center;
-  
-}
-.jhumka__value{
-  color: orangered;
-}
+  }
 .jhumka__buy_or_see{
   display: flex;
   justify-content: space-around;
   margin-bottom: 0%;
 }
-.jhumka__buy{
-  color: orangered;
-  text-align: left;
-}
 .necklace__price{
   display: flex;
   justify-content: center;
-  
-}
-.necklace__value{
-  color: orangered;
-}
+  }
 .necklace__buy_or_see{
   display: flex;
   justify-content: space-around;
   margin-bottom: 0%;
 }
-.necklace__buy{
-  color: orangered;
-  text-align: left;
-}
 .kangan__price{
   display: flex;
   justify-content: center;
-  
-}
-.kangan__value{
-  color: orangered;
-}
+  }
 .kangan__buy_or_see{
   display: flex;
   justify-content: space-around;
   margin-bottom: 0%;
 }
-.kangan__buy{
-  color: orangered;
-  text-align: left;
-}
-.jewellery__arrow button{
-  background-color: #111111;
-  color: white;
-  height: 50px;
-  width: 50px;
-  margin: 1%;
-  align-items: center;
-}
-.accessories__heading{
-  text-align: center;
-}
 #bottom-section{
   background-color: #111111;
   color: white;
   margin-bottom: 0%;
-}
-#bottom-section .nav-class .navbar{
-text-align: center;
-}
- #helpline p{
-  text-align: center;
-}
-#email{
-  text-align: center;
-  text-decoration: underline white 2px;
-}
-#email button{
-  color: orangered;
-  border: none;
-  background-color: #111111;
-}
-footer p{
-  text-align: center;
-  color: gray;
 }
 footer{
   margin-bottom: 0;
