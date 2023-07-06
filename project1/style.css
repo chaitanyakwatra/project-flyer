@@ -352,7 +352,10 @@ li a:hover {
         }
 
 /*layout*/
-
+.slider{
+  display: flex;
+  justify-content: space-around;
+}
   .container {
     width: 80%;
     margin: 0 auto; }
@@ -556,4 +559,4 @@ footer{
 margin-top: 25px;
   }
 
-}
+} 
