@@ -6,14 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eflyer</title>
     <link rel="stylesheet" href="style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-    
-  
-  <script type="text/javascript" src="path/to/slick.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css" /><!--JS code-->
 </head>
 <body>
    
@@ -91,7 +84,7 @@
                 <h1>Man & Women Fashion</h1>
             </div>
             <div class="fashion__cloths">
-                 <div class="slider">
+                 <div class="slider"><!--slider for fashion section-->
                  <div class="slide-1">
                 <div class="cloths__T-shirt">
                     <button>
@@ -132,6 +125,7 @@
                      </button>
                  </div>
                 </div>
+                
                 <div class="slide-3">
                   <div class="cloths__skart">
                     <button>
@@ -152,19 +146,22 @@
                      </button>
                   </div>
             </div>
-            <div class="cloths__arrow">
-                <button type="button"><h3> < </h3>  </button>
-                <button type="button"><h3> > </h3>  </button>
             </div>
-        
-        
+            <div class="cloths__arrow">
+                <button type="button"><h3><a href="arrow__previous"> < </a></h3>  </button>
+                <button type="button"><h3><a href="arrow__next"> > </a> </h3>  </button>
+            </div>
+       
+        </div>
     </article>
-    <article>
-        <div id="Electronics">
+    <article id="Electronics">
+        
             <div class="electronic__heading">
                 <h1>Electronics</h1>
             </div>
              <div class="Electronics__item">
+                <div class="slider"><!--slider for electronic item-->
+                    <div class="slide-1">
                 <div class="item__Laptop">
                     <button>
                         <div class="laptop__name">
@@ -183,6 +180,8 @@
                         </div>
                     </button>
                 </div>
+            </div>
+            <div class="slide-2">
                 <div class="item__mobiles">
                     <button>
                         <div class="mobile__name">
@@ -201,6 +200,8 @@
                         </div>
                     </button>
                 </div>
+            </div>
+            <div class="slide-3">
                 <div class="item__computer">
                     <button>
                         <div class="computer__name">
@@ -220,9 +221,10 @@
                              </button>
                          </div>
                         </div>
+                    </div>
                         <div class="electronic__arrow">
-                            <button type="button"><h3> < </h3>  </button>
-                            <button type="button"><h3> > </h3>  </button>
+                            <button type="button"><h3><a href="arrow__previous"> < </a></h3>  </button>
+                <button type="button"><h3><a href="arrow__next"> > </a> </h3>  </button>
                         </div>
                  </div>
                 </article>
@@ -232,6 +234,8 @@
                             <h1>Jewellery accessories</h1>
                         </div>
                         <div class="accessories__Jewellery">
+                            <div class="slider"><!--slider for accessories-->
+                                <div class="slide-1">
                           <div class="jewellery__jumkas">
                              <button>
                                 <div class="jhumka__name">
@@ -250,6 +254,8 @@
                                         </div>
                                     </button>
                                 </div>
+                            </div>
+                            <div class="slide-2">
                                 <div class="jewellery__necklaces">
                                     <button type="button">
                                         <div class="necklace__name">
@@ -268,6 +274,8 @@
                                                 </div>
                                             </button>
                                         </div>
+                                    </div>
+                                    <div class="slide-3">
                                          <div class="jewellery__kangan">
                                             <button>
                                                 <div class="kangan__name">
@@ -287,11 +295,12 @@
                                                     </button>
                                                 </div>
                                          </div>
-                                         <div class="jewellery__arrow">
-                                            <button type="button"><h3> < </h3>  </button>
-                                            <button type="button"><h3> > </h3>  </button>
                                         </div>
-                                    </div>
+                                         <div class="jewellery__arrow">
+                                            <button type="button"><h3><a href="arrow__previous"> < </a></h3>  </button>
+                <button type="button"><h3><a href="arrow__next"> > </a> </h3>  </button>
+                                        </div>
+                                    
                                 </div>
                                 </article>
                             
@@ -324,5 +333,34 @@
                                         </div>
                                         <p>2020 all right reserved. Design by free html templates</p>
                                  </footer>
+                                 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--js code-->
+                                 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.min.js"></script><!--js code-->
+                                 <!--js code-->
+                                 <script>
                                  
+                                     $(document).ready(function() {
+                                         $('.fashion__cloths .slider').slick({
+                                             dots: true,
+                                             arrows: true,
+                                             prevArrow: '<button type="button" class="slick-prev"><a href="#arrow__previous"><</a></button>',
+                                             nextArrow: '<button type="button" class="slick-next"><a href="#arrow__next">></a></button>',
+                                             infinite: true,
+                                             slidesToShow: 1,
+                                             slidesToScroll: 1
+                                         });
+                             
+                                         $('.Electronics__item .slider').slick({
+                                             dots: true,
+                                             arrows: true,
+                                             prevArrow: '<button type="button" class="slick-prev"><a href="#arrow__previous"><</a></button>',
+                                             nextArrow: '<button type="button" class="slick-next"><a href="#arrow__next">></a></button>',
+                                             infinite: true,
+                                             slidesToShow: 1,
+                                             slidesToScroll: 1
+                                         });
+                             
+                                        
+                             
+                                     });
+                                 </script>
 </body> </html>
