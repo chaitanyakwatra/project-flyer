@@ -354,10 +354,7 @@ li a:hover {
         }
 
 /*layout*/
-.slider{
-  display: flex;
-  justify-content: space-around;
-}
+
   .container {
     width: 80%;
     margin: 0 auto; }
@@ -396,7 +393,7 @@ body{
     display: flex;
     justify-content: space-between;
     }
-
+    
 .tshirt__price{
   display: flex;
   justify-content: center;
@@ -510,14 +507,9 @@ footer{
   .header__icon--cart{
     font-size: small;
   }
-
   
-  .fashion__cloths {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+  
+ 
   .cloths__shirt{
     margin-top: 15px;
   }

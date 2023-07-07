@@ -7,7 +7,7 @@
       <title>Eflyer</title>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-      <!--JS code-->
+     
    </head>
    <body>
       <header class="header">
@@ -223,7 +223,7 @@
          </div>
          <div class="Electronics__item">
             
-               <!--slider for electronic item-->
+              
                
                   <div class="item__Laptop">
                      <button>
@@ -303,7 +303,7 @@
          </div>
          <div class="accessories__Jewellery">
             
-               <!--slider for accessories-->
+              
                
                   <div class="jewellery__jumkas">
                      <button>
@@ -407,27 +407,29 @@
          <p>2020 all right reserved. Design by free html templates</p>
       </footer>
       </div>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!--js code-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <!--js code-->
+     
       <script>
-        
-
-                $(document).ready(function(){
+    $(document).ready(function(){
     $('.slider').slick({
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 3
-    });
+      slidesToScroll: 3,
+      responsive: [
+     {
+      breakpoint: 570,
+      settings: 
+    {
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+    }
+  ]
+
+});
    
 });
-
-
-
-
- 
-   
-
       </script>
    </body>
 </html>
